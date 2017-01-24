@@ -1,9 +1,3 @@
-require("jquery.easing")
-require('bootstrap-loader');
-require("font-awesome-loader");
-require("../css/style.css");
-
-
 $(function() {
     var offset = 32;
     $('#main-nav li a').click(function(e) {
