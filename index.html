@@ -12,9 +12,11 @@
 
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
-    <link href="./src/js/pace/themes/big-counter.css" rel="stylesheet" />
 </head>
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top" data-offset-top="50" data-offset-bottom="100">
+    <div id="loader">
+        <div id="status"></div>
+    </div>
     <!--[if lt IE 8]>
         <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
@@ -95,8 +97,7 @@
                     <h2 class="text-center">About</h2>   
                     <div class="row">
                         <div class="col-lg-6">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                            
+                            <p>We are a team of experienced and passionate developers, focused on building innovative applications using only state-of-the-art technologies. Although we are a young Company, our team members have many years of experience successfully working for major international companies like Conoo, Vuoio , BlaBla or BalVal.</p>
                             <p>We pour our love into the things we build and take pride in product quality, keeping in mind the resource constraints to keep the project on time and on budget.</p>
                         </div>
                         <div class="col-lg-6 reveal-elem" id="company-container">
@@ -142,7 +143,6 @@
 
     <!-- HACK: ScrollReveal not working with current webpack version -->
     <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
-    <script src="./src/js/pace/pace.min.js"></script>
     <script type="text/javascript" src="assets/common.js" charset="utf-8"></script>
     <script type="text/javascript" src="assets/scripts.js" charset="utf-8"></script>
 </body>
