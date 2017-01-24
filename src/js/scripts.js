@@ -17,13 +17,6 @@ $(function() {
         }
     });
 
-    $(window).on("load", function() {
-        $("#status").fadeOut(300).fadeOut('slow', function() {
-            $("#loader").remove();      
-            $("body").delay(0).css({'overflow':'visible'});      
-        });        
-    });
-    
     window.sr = ScrollReveal();
     sr.reveal('#web-app-container', { delay: 300});
     sr.reveal('#consulting-container', { delay: 300 });
